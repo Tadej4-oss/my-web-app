@@ -1,0 +1,97 @@
+body{
+    height: 100vh;
+    margin: 5px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(5, 5, 5), rgb(46, 46, 46));
+}
+
+.header{
+    font-size: 50px;
+    padding: auto 5px;
+    font-weight: bolder;
+    color: rgb(166, 255, 0);
+}
+
+#list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin-top: 30px;
+}
+
+input{
+    margin: 5px 0;
+    width: 55%;
+    height: 30px;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgba(114, 112, 112, 0);
+    color: rgb(166, 255, 0);
+}
+
+input::placeholder{
+    color: rgb(151, 151, 151);
+    font-size: 15px;
+}
+
+#todo-task{
+    margin: 0 auto; 
+    padding: 0 5px;
+    color: white;
+    font-size: 20px;
+
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 3px 10px;
+    padding: 5px 8px;
+    width: 100%;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-background-filter: blur(8px);
+    backdrop-filter: blur(8px)
+}
+
+button{
+    color: rgb(14, 0, 0);
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.507);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#add_btn{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: 57%;
+    height: 35px;
+    background-color: rgb(166, 255, 0);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#tickbox{
+    padding: 1px 3px;
+
+    margin: 5px 0;
+    width: auto;
+    height: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
